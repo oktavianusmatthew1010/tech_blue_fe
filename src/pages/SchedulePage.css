@@ -1,0 +1,132 @@
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 16px;
+  padding-bottom: 96px;
+  font-family: 'Inter', sans-serif;
+  color: #1e1e1e;
+}
+
+.back-button {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #0f766e;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.profile-card {
+  background-color: #f9fafb;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.profile-card p:first-child {
+  color: #0f766e;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  margin: 0 auto 4px;
+}
+
+.client-name {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.datetime-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #374151;
+  background-color: #dbeafe;
+  padding: 8px 16px;
+  border-radius: 9999px;
+}
+
+.datetime-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-section,
+.address-section,
+.tasks-section,
+.notes-section {
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.contact-line svg {
+  margin-right: 8px;
+}
+
+.task-card {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.task-card-title {
+  color: #0f766e;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.task-card-description {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.notes-content {
+  font-size: 14px;
+  color: #374151;
+}
+
+.action-button {
+  width: 100%;
+  background-color: #0f766e;
+  color: white;
+  padding: 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0d5d55;
+}

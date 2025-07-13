@@ -1,0 +1,166 @@
+.home-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.welcome-header h1 {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+}
+
+.missed-count {
+  text-align: center;
+}
+
+.missed-count span:first-child {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.missed-count span:last-child {
+  font-size: 14px;
+  color: #777;
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.schedule-card {
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-card.scheduled {
+  border-left: 4px solid #3498db;
+}
+
+.schedule-card.in-progress {
+  border-left: 4px solid #f39c12;
+}
+
+.schedule-card.completed {
+  border-left: 4px solid #2ecc71;
+}
+
+.schedule-card.cancelled {
+  border-left: 4px solid #95a5a6;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.schedule-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.scheduled {
+  background-color: #e1f0fa;
+  color: #3498db;
+}
+
+.status-badge.in-progress {
+  background-color: #fef5e6;
+  color: #f39c12;
+}
+
+.status-badge.completed {
+  background-color: #e8f8f0;
+  color: #2ecc71;
+}
+
+.status-badge.cancelled {
+  background-color: #f0f0f0;
+  color: #7f8c8d;
+}
+
+.client-info {
+  margin-bottom: 15px;
+}
+
+.client-info strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.client-info span {
+  font-size: 14px;
+  color: #666;
+}
+
+.schedule-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.schedule-details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.schedule-details .icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.schedule-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+
+.action-button.primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.action-button.secondary {
+  background-color: #f39c12;
+  color: white;
+}
+
+.action-button.text {
+  background: none;
+  color: #3498db;
+  text-decoration: underline;
+}

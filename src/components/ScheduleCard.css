@@ -1,0 +1,157 @@
+.schedule-card {
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.schedule-card.in-progress {
+    border-left: 4px solid #FFA500;
+
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: #FFF3E0;
+
+    color: #FF9800;
+
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.client-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.client-info {
+    margin-bottom: 16px;
+}
+
+.client_card {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #333;
+}
+
+.service-name {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
+
+.datetime-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #374151;
+  background-color: #dbeafe;
+  padding: 8px 16px;
+  border-radius: 9999px;
+}
+
+.datetime-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.icon {
+  color: #00e3c2;
+  font-size: 12px;
+}
+
+.divider {
+  margin: 0 10px;
+  color: #ffffffaa;
+}
+
+.location,
+.date,
+.time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.time-details {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    color: #2196F3;
+   
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.primary-button {
+    background-color: #FF9800;
+    
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #F57C00;
+    
+}
+
+
+@media (max-width: 480px) {
+    .time-details {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .text-button,
+    .primary-button {
+        width: 100%;
+        text-align: center;
+    }
+}
