@@ -26,6 +26,7 @@ export interface Task {
   reason?: string;
 }
 
+
 export interface Location {
   address: string;
   latitude: number;

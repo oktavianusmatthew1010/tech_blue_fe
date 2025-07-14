@@ -34,20 +34,12 @@ const ScheduleCard: React.FC<ScheduleCardProps> = ({ schedule, onClick }) => {
           </div>
 
           <p className="text-gray-600">{schedule.location.address}</p>
-          {/* <div className="date-profile">
 
-            <div className="date-text">{formatScheduleDate(schedule.dateService)}
-            
-              {formatTime(schedule.startTime)} - {formatTime(schedule.endTime)}
-            
-           </div>
-          </div> */}
-
-         <div className="datetime-badge">
-                   <span className="flex items-center gap-1"> {formatScheduleDate(schedule.startTime)}</span>
-                   <span>|</span>
-                   <span className="flex items-center gap-1"> {formatScheduleTime(schedule.startTime)} - {formatScheduleTime(schedule.endTime)}</span>
-                 </div>
+          <div className="datetime-badge">
+            <span className="flex items-center gap-1"> {formatScheduleDate(schedule.startTime)}</span>
+            <span>|</span>
+            <span className="flex items-center gap-1"> {formatScheduleTime(schedule.startTime)} - {formatScheduleTime(schedule.endTime)}</span>
+          </div>
         </div>
 
       </div>

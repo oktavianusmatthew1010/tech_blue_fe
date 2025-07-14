@@ -1,0 +1,85 @@
+
+.schedule-completed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #0D5D5C;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.time-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.completion-status {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.schedule-details {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.date-row {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.date-row.completed {
+  color: #34C759;
+}
+
+.checkmark, .checkbox {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.checkmark {
+  color: #34C759;
+}
+
+.time-row {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+
+.duration-row {
+  font-size: 14px;
+  color: #86868b;
+  margin-left: 30px;
+}
+
+.home-button {
+  background-color: #007AFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.home-button:hover {
+  background-color: #0062CC;
+}
