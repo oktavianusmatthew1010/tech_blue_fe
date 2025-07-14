@@ -1,6 +1,6 @@
 import { Schedule, Task } from '../types/types';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://techblueapi-oktavianusmatthew1254-ent7lozc.leapcell.dev';
 
 export const fetchAllSchedules = async (): Promise<Schedule[]> => {
   const response = await fetch(`${API_URL}/schedules`);
